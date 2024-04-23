@@ -1,0 +1,10 @@
+.breadcrumb-container {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.separator{
+    margin: 0 5px;
+}

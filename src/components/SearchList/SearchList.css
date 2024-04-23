@@ -1,0 +1,48 @@
+.items{
+    flex-direction: row;
+    align-items: start;
+    width: '100%';
+    display: flex;
+    box-shadow: 1px 2.1px 2.1px hsl(0deg, 0% 0% / 0.47);
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom-color: #000000DD;
+}
+
+.imgItems {
+    width: 120px;
+    height: 120px;
+}
+
+.imgShipping {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;  
+}
+
+.searchList {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;
+}
+
+.itemsInfo {
+    flex-direction: column;
+    display: flex;
+    margin-left: 5px;
+    width: 80%;
+}
+
+.itemPrice { 
+    flex-direction: row;
+    display: flex;
+}
+
+.itemRegion {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
